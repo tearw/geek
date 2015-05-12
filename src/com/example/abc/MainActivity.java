@@ -70,6 +70,7 @@ public class MainActivity extends Activity {
 				HttpResponse response = client.execute(httpGet);
 				InputStream inputStream=response.getEntity().getContent();
 				
+				
 				StringBuffer buffer = new StringBuffer();
                 BufferedReader bufferReader = new BufferedReader(
                         new InputStreamReader(inputStream));
